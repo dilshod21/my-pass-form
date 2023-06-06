@@ -50,12 +50,13 @@ function App() {
             <div className="row justify-content-center mt-5">
                 <div className="col-xl-5 col-lg-6 col-md-8">
                     <div className="card">
-                        <form className="d-flex justify-content-center align-items-center my-5">
+                        <h4 className="text-center mt-4">Enter-your-password-****</h4>
+                        <form className="d-flex justify-content-center flex-wrap-wrap align-items-center my-4">
                             <input value={oneVal} type="text" className="form-control my-input mx-2" onChange={oneTurner}/>
                             <input ref={oneTurn} value={twoVal} type="text" className="form-control my-input mx-2" onChange={twoTurner}/>
                             <input ref={twoTurn} value={threeVal} type="text" className="form-control my-input mx-2" onChange={threeTurner}/>
                             <input ref={threeTurn} value={fourVal} type="text" className="form-control my-input mx-2" onChange={fourTurner}/>
-                            <button ref={fourTurn} type="submit" className="btn btn-primary mx-2 my-3">submit</button>
+                            <button ref={fourTurn} type="submit" className="btn btn-sm btn-primary mx-2 my-3">submit</button>
                         </form>
                     </div>
                 </div>
